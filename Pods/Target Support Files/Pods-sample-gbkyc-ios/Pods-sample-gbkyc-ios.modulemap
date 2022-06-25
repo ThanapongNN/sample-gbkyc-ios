@@ -1,0 +1,6 @@
+framework module Pods_sample_gbkyc_ios {
+  umbrella header "Pods-sample-gbkyc-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

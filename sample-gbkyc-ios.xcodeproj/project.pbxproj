@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36BE52B7954E2E28A607D8BD /* Pods_sample_gbkyc_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1312F7DE4132F675A250D4 /* Pods_sample_gbkyc_ios.framework */; };
 		86936FC1286747DE0022B615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86936FC0286747DE0022B615 /* AppDelegate.swift */; };
 		86936FC3286747DE0022B615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86936FC2286747DE0022B615 /* SceneDelegate.swift */; };
 		86936FC5286747DE0022B615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86936FC4286747DE0022B615 /* ViewController.swift */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03931317DB3624FC0C88FD9A /* Pods-sample-gbkyc-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-gbkyc-ios.release.xcconfig"; path = "Target Support Files/Pods-sample-gbkyc-ios/Pods-sample-gbkyc-ios.release.xcconfig"; sourceTree = "<group>"; };
+		46576BE77A1716D54C6FAB66 /* Pods-sample-gbkyc-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-gbkyc-ios.debug.xcconfig"; path = "Target Support Files/Pods-sample-gbkyc-ios/Pods-sample-gbkyc-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		86936FBD286747DE0022B615 /* sample-gbkyc-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-gbkyc-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86936FC0286747DE0022B615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86936FC2286747DE0022B615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		86936FDD286747DF0022B615 /* sample-gbkyc-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-gbkyc-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86936FE1286747DF0022B615 /* sample_gbkyc_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_gbkyc_iosUITests.swift; sourceTree = "<group>"; };
 		86936FE3286747DF0022B615 /* sample_gbkyc_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_gbkyc_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE1312F7DE4132F675A250D4 /* Pods_sample_gbkyc_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_gbkyc_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BE52B7954E2E28A607D8BD /* Pods_sample_gbkyc_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				86936FD6286747DF0022B615 /* sample-gbkyc-iosTests */,
 				86936FE0286747DF0022B615 /* sample-gbkyc-iosUITests */,
 				86936FBE286747DE0022B615 /* Products */,
+				EE2D5265690EEE871C6E09CA /* Pods */,
+				944DB197AD0CF4C5513D3BE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +134,24 @@
 			path = "sample-gbkyc-iosUITests";
 			sourceTree = "<group>";
 		};
+		944DB197AD0CF4C5513D3BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE1312F7DE4132F675A250D4 /* Pods_sample_gbkyc_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE2D5265690EEE871C6E09CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46576BE77A1716D54C6FAB66 /* Pods-sample-gbkyc-ios.debug.xcconfig */,
+				03931317DB3624FC0C88FD9A /* Pods-sample-gbkyc-ios.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86936FE7286747DF0022B615 /* Build configuration list for PBXNativeTarget "sample-gbkyc-ios" */;
 			buildPhases = (
+				751633C8EA361C37CFC8E218 /* [CP] Check Pods Manifest.lock */,
+				78EFAF12C663F9679AF59FD6 /* [CP-User] Run Flutter Build gbkycmodule Script */,
 				86936FB9286747DE0022B615 /* Sources */,
 				86936FBA286747DE0022B615 /* Frameworks */,
 				86936FBB286747DE0022B615 /* Resources */,
+				3E7EA37623CEEB70C1966F98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +281,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E7EA37623CEEB70C1966F98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sample-gbkyc-ios/Pods-sample-gbkyc-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sample-gbkyc-ios/Pods-sample-gbkyc-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample-gbkyc-ios/Pods-sample-gbkyc-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751633C8EA361C37CFC8E218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sample-gbkyc-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78EFAF12C663F9679AF59FD6 /* [CP-User] Run Flutter Build gbkycmodule Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build gbkycmodule Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../gbkyc-module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86936FB9286747DE0022B615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -366,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +512,7 @@
 		};
 		86936FE8286747DF0022B615 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46576BE77A1716D54C6FAB66 /* Pods-sample-gbkyc-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,7 +531,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ntc.sample-gbkyc-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbprimepay.gbwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,6 +541,7 @@
 		};
 		86936FE9286747DF0022B615 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03931317DB3624FC0C88FD9A /* Pods-sample-gbkyc-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,7 +560,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ntc.sample-gbkyc-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbprimepay.gbwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

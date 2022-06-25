@@ -1,0 +1,6 @@
+framework module gbkyc {
+  umbrella header "gbkyc-umbrella.h"
+
+  export *
+  module * { export * }
+}
